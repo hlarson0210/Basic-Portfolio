@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background-image: url("funky-lines.png");
+    background: url("funky-lines.png");
 
 }
 .content-width {
@@ -13,9 +13,10 @@ body {
 header {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     background-color: #ffffff;
+    border: 0;
     border-bottom: #cccccc solid 1px;
     margin: 0;
-    padding: 20px;
+    width: 100%;
 }
 
 h1 {
@@ -23,29 +24,51 @@ h1 {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
+    border: 0;
     float: left;
-    margin: 0;
+    margin: 0 0 0 23%;
+}
+
+h2 {
+    color: #777777;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 2px solid #cccccc;
+}
+
+p {
+    color: #777777;
+    line-height: 20pt;
+}
+
+.buttons {
+
 }
 
 .contact-btn {
     color: #666666;
     float: right;
     padding: 0px 10px 0px 10px;
+    margin-right: 25%;
+    margin-top: 25px;
+    position: relative;
 }
 
 .portfolio-btn {
     color: #666666;
     float: right;
     padding: 0px 10px 0px 10px;
+    margin-top: 25px;
     border-right: #eeeeee solid 1px;
     border-left: #eeeeee solid 1px;
+    position: relative;
 }
 
 .about-btn {
     color: #666666;
     float: right;
     padding: 0px 10px 0px 10px;
-    margin: auto;
+    margin-top: 25px;
+    position: relative;
 }
 
 .menu-bar:after {
