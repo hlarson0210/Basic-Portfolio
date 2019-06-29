@@ -1,6 +1,76 @@
+body {
+    width: 100%;
+    background-image: url("funky-lines.png");
+
+}
+.content-width {
+    max-width: 960px;
+    box-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+header {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 1px;
+    margin: 0;
+    padding: 20px;
+}
+
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
+    float: left;
+    margin: 0;
 }
+
+.contact-btn {
+    color: #666666;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+.portfolio-btn {
+    color: #666666;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    border-right: #eeeeee solid 1px;
+    border-left: #eeeeee solid 1px;
+}
+
+.about-btn {
+    color: #666666;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+}
+
+.menu-bar:after {
+    display: block;
+    content: "";
+    clear: both;
+    margin: auto;
+}
+
+img {
+    height: 150-px;
+    width: 200px;
+}
+
+footer {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 8pt;
+    border-top: 5px solid #4aaaa5;
+}
+
