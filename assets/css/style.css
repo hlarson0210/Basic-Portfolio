@@ -2,7 +2,6 @@ body {
     width: 100%;
     background: url("../images/funky-lines.png");
     margin: 0;
-    
 }
 
 header {
@@ -44,10 +43,6 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.buttons {
-
-}
-
 .contact-btn {
     color: #666666;
     float: right;
@@ -80,7 +75,7 @@ a {
     position: relative;
 }
 
-.menu-bar:after {
+.menu-bar::after {
     display: block;
     content: "";
     clear: both;
@@ -89,7 +84,7 @@ a {
 
 img {
     height: 150px;
-    width: 150px;
+    width: 160px;
     float: left;
     margin-right: 15px;
 }
@@ -155,85 +150,78 @@ button {
     z-index: 1;
 }
 
-.wrap .wrap2 .wrap3 {
-    z-index: 1;
-}
-
 .wrap::after{
     clear: both;
+    content: "";
     display: block;
-    content:"";
 }
 
 .wrap2::after{
     clear: both;
+    content: "";
     display: block;
-    content:"";
 }
 
 .wrap3::after{
     clear: both;
+    content: "";
     display: block;
-    content:"";
 }
 
 #Hangman {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 100px;
-    left: 0px;
-    z-index: 2;
+    width: 140px;
+    position: fixed;
+    top: 305px;
+    padding: 10px;
+    z-index: 1;
 }
 #RPG {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 100px;
-    left: 0px;
-    z-index: 2;
+    width: 140px;
+    position: fixed;
+    top: 305px;
+    left: 534px;
+    padding: 10px;
+    z-index: 1;
 }
 
 #Trivia {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 100px;
-    left: 0px;
-    z-index: 2;
+    width: 140px;
+    position: fixed;
+    top: 485px;
+    padding: 10px;
+    z-index: 1;
 }
 
 #Rutgers {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 100px;
-    left: 0px;
-    z-index: 2;
+    width: 140px;
+    position: fixed;
+    top: 485px;
+    left: 534px;
+    padding: 10px;
+    z-index: 1;
 }
 
 #Rock{
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 100px;
-    left: 0px;
-    z-index: 2;
+    width: 140px;
+    position: fixed;
+    top: 650px;
+    padding: 10px;
+    z-index: 1;
 }
 
 footer {
