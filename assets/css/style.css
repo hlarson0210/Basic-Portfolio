@@ -30,6 +30,27 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.float {
+    float: left;
+}
+
+.float::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+h5 {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left: -175px;
+    display: inline;
+}
+
 p {
     color: #777777;
     line-height: 20pt;
@@ -86,6 +107,7 @@ img {
     width: 160px;
     float: left;
     margin-right: 15px;
+    margin-bottom: 5%;
 }
 
 .content-width {
@@ -170,60 +192,41 @@ button {
 #Hangman {
     background-color: #4aaaa5;
     color: white;
-    text-align: center;
-    width: 140px;
-    height: 20px;
-    position: relative;
     top: 105px;
-    padding: 10px;
-    z-index: 2;
+    padding: 10px 49px 10px 49px;
 }
 #RPG {
     background-color: #4aaaa5;
     color: white;
-    text-align: center;
-    width: 140px;
-    height: 20px;
-    position: relative;
     top: 105px;
-    padding: 10px;
-    z-index: 2;
+    padding: 10px 44px 10px 44px;
 }
 
 #Trivia {
     background-color: #4aaaa5;
     color: white;
-    width: 140px;
-    height: 20px;
-    position: relative;
-    top: 105px;
-    padding: 10px;
+    padding: 10px 41px 10px 40px;
     text-align: center;
-    z-index: 2;
 }
 
 #Rutgers {
     background-color: #4aaaa5;
     color: white;
-    text-align: center;
-    width: 140px;
-    height: 20px;
-    position: relative;
     top: 105px;
-    padding: 10px;
-    z-index: 2;
+    padding: 10px 16px 10px 15px;
 }
 
 #Rock{
     background-color: #4aaaa5;
     color: white;
-    text-align: center;
-    width: 140px;
-    height: 20px;
-    position: relative;
     top: 105px;
-    padding: 10px;
-    z-index: 2;
+    padding: 10px 16px 10px 17px;
+}
+
+.content-width::after{
+    clear: both;
+    content: "";
+    display: block;
 }
 
 footer {
